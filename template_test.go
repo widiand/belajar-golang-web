@@ -77,3 +77,4 @@ func TestTemplateEmbed(t *testing.T) {
 	body, _ := io.ReadAll(recorder.Result().Body)
 	fmt.Println(string(body))
 }
+
